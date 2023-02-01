@@ -1,0 +1,44 @@
+/* RESET */
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+
+/* HEADER */
+header {
+    height: 100px;
+    background-color: white;
+}
+
+/* MAIN */
+main {
+    height: calc(100vh - 150px);
+    background-color: rgb(96, 96, 170);
+    padding-top: 50px;
+}
+
+#grid {
+    width: 1000px;
+    height: 1000px;
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+#grid .square {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+
+
+/* FOOTER */
+footer {
+    height: 50px;
+    background-color: white;
+}

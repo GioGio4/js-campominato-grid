@@ -1,9 +1,16 @@
 /* RESET */
 * {
-    margin: 0 auto;
+    margin: 0 0;
     box-sizing: border-box;
 
 }
+
+.container {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
 
 
 /* HEADER */
@@ -11,6 +18,26 @@ header {
     height: 100px;
     background-color: white;
 }
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btn-play-game {
+    padding: .5rem 1rem;
+    border: 1px dashed rgb(96, 96, 170);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-play-game:hover {
+    border: 2px solid rgb(96, 96, 170);
+}
+
+
 
 /* MAIN */
 
@@ -23,6 +50,7 @@ main {
 #grid {
     width: 1000px;
     height: 1000px;
+    margin: 0 auto;
 
     display: flex;
     flex-wrap: wrap;
@@ -55,5 +83,6 @@ main {
 /* FOOTER */
 footer {
     height: 50px;
+    line-height: 50px;
     background-color: white;
 }
